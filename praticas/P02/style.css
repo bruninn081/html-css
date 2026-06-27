@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(196, 255, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+main > img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+main > section > ul {
+    text-align: justify;
+    list-style-position: inside;
+    columns: 2;
+}
+
+main > section > ol {
+    text-align: justify;
+}
+
+main > section > ol > li {
+    margin-bottom: 1em;
+}
+
+main > button {
+    background-color: white;
+    border-radius: 5px;
+}
+
+main > button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}

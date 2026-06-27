@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+div {
+    background-color: white;
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    text-align: center;
+    padding: 20px; /*Faltou inserir o padding*/
+}
+
+div > img {
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+div > button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.8s; /*Inserir a tag de transição aqui e não na pseudo-classe*/
+}
+
+div > button:hover {
+    background-color: white;
+    color: blue;
+
+}
