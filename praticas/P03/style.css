@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+header > div#cabeca {
+    height: 400px;
+    border: 1px solid black;
+    background-image: url(imagens/wallpaper004.jpg);
+    background-position: top center;
+}
+.caixa {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.box1 {
+    background-image: url(https://www.midtowncomics.com/images/PRODUCT/XL/2473161_xl.jpg);
+}
+
+div.box2 {
+    background-image: url(https://cdn-icons-png.magnific.com/256/1051/1051277.png);
+}
+
+div.box3 {
+    background-image: url(https://cdn-icons-png.magnific.com/256/1051/1051277.png);
+    background-repeat: no-repeat;    
+}
+
+div.box4 {
+    background-image: url(https://www.midtowncomics.com/images/PRODUCT/XL/2473161_xl.jpg);
+    background-size: cover;
+}
+
+div.box5 {
+    background-image: url(https://www.midtowncomics.com/images/PRODUCT/XL/2473161_xl.jpg);
+    background-position: center top;   
+}
+
+footer > div#pe {
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(imagens/wallpaper005.jpg);
+    background-position: top center;
+
+}
